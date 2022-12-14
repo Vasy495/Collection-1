@@ -139,6 +139,7 @@ public class Main {
     }
 //Окончание ДЗ с очередью
 
+
     private static void example(){
         List<List<String>> biDemArrList = new ArrayList<>();
         for (int i = 0; i < 8; i++) {
