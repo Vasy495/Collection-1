@@ -18,6 +18,11 @@ public class Truck extends Transport implements Competing {
     }
 
     @Override
+    public void repair() {
+        System.out.println("Грузовик " + getBrand() + " " + getModel() + " починен");
+    }
+
+    @Override
     public void defineType() {
             if (cargoType == null) {
                 System.out.println("Данных по авто недостаточно");
