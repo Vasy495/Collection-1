@@ -20,6 +20,11 @@ public class Bus extends Transport implements Competing{
         return true;
     }
 
+    @Override
+    public void repair() {
+        System.out.println("Автобус " + getBrand() + " " + getModel() + " починен");
+    }
+
     public Bus(String brand, String model, float engineVolume, CapacityType capacityType) {
         super(brand, model, engineVolume);
         this.capacityType = capacityType;
